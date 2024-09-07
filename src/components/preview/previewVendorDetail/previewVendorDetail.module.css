@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(207, 199, 199);
+    padding-bottom: 20px;
+    color: #555555;
+}
+
+.vendorName {
+    text-transform: capitalize;
+}
+
+.vendorDetail {
+    display: flex;
+    gap: 40px;
+}
+
+.vendorDetail p {
+    font-size: 14px;
+}
+
+.vendorAdd {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: 400;
+}
+
+.businessNum {
+    font-weight: 700;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.clientDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: end;
+}
+
+.clientTitle {
+    font-weight: 700;
+    font-size: 13px;
+}

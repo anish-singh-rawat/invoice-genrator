@@ -1,0 +1,59 @@
+.container {
+    margin-top: 30px;
+}
+
+.inputContainer {
+    text-align: center;
+}
+
+th {
+    padding: 15px;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0px 10px;
+}
+
+
+.inputContainer input {
+    padding: 6px;
+}
+
+.descRow {
+    width: 40%;
+}
+
+.description {
+    width: 100%;
+}
+
+.rateRow {
+    width: 20%;
+}
+
+.rate {
+    width: 80%;
+}
+
+.qty {
+    width: 10%;
+    text-align: center;
+}
+
+.check {
+    width: 18px;
+    height: 18px;
+}
+
+input[type="checkbox"] {
+    accent-color: black;
+}
+
+.addDesBtn {
+    cursor: pointer;
+}
+
+.deleteTable {
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.container {
+    width: 48%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form {
+    border: 1px solid #c4cfde;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form label {
+    font-size: 17px;
+    width: 110px;
+}
+
+.form input {
+    font-size: 17px;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c4cfde;
+    outline: none;
+}
+
+.form input:hover {
+    border-bottom: 1px solid purple;
+}

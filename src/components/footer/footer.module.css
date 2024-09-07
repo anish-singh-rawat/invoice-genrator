@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container p {
+  font-weight: 600;
+}
+
+.container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.signature p {
+  font-weight: 700;
+}
+
+.addBtn {
+  cursor: pointer;
+}
+
+.photoSection {
+  margin-top: 20px;
+}
+
+.photoSection p {
+  font-weight: 700;
+}
+
+.addPhoto {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.signature {
+  position: relative;
+}
+
+.uploadImg {
+  display: none;
+}
+
+.fileLabel {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.file:hover .updateBtnGrp {
+  display: flex;
+}
+
+.fileLabel img {
+  max-width: 180px;
+  max-height: 180px;
+}
+
+.updateBtnGrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  display: none;
+}
+
+.updateButton {
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 2px 10px;
+  border: none;
+  background-color: rgb(199, 199, 214);
+
+}
+
+.removeButton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

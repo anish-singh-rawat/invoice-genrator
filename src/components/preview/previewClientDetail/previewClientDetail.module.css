@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+}
+
+.billTo {
+    padding: 10px 0;
+}
+
+.clientName {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.businessNum {
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 16px;
+}

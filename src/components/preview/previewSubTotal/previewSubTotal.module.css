@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+    border-top: 1px solid rgb(203, 201, 201);
+    border-bottom: 1px solid rgb(203, 201, 201);
+    padding: 10px;
+    margin-top: 10px;
+    color: #555555;
+}
+
+.SubTotal {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.total {
+    font-weight: 800;
+    font-size: 18px;
+}

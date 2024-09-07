@@ -1,0 +1,30 @@
+#root {
+  max-width: 1000px;
+  margin: 10px auto 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.prevEditBtn {
+  display: flex;
+  gap: 10px;
+}
+
+.Btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid gray;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.printBtn {
+  display: flex;
+  justify-content: end;
+}

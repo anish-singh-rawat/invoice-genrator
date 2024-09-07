@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-30%, -20%);
+}
+
+.modal_content {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.signature_container {
+    position: relative;
+    /* background-color: #fff; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.button_container {
+    margin-top: 10px;
+    display: flex;
+    gap: 2px;
+}
+
+.button_container button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #2e2b2b;
+    color: #fff;
+    width: 33.3%;
+}
+
+.button_container button:hover {
+    background-color: #000;
+}
+
+.signBox {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f3f4f6;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.sign {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.button_group {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    align-items: center;
+    gap: 5px;
+}
